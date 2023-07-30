@@ -18,7 +18,7 @@ def CustomChatGPT(user_input):
 
 
 def main():
-    demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "My Teacher GPT")
+    demo = gradio.Interface(fn=CustomChatGPT, inputs = "text", outputs = "text", title = "My teacher, GPT")
     demo.launch(server_name="0.0.0.0", share=True)  
 
 if __name__ == '__main__':
