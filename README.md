@@ -11,6 +11,9 @@ Under `user input` type in your question, and click submit.
 
 Then, learn from a response thats much simpler to understand!
 
+### ChatBot interface
+
+![Alt Text](https://github.com/rishiselvakumaran98/MyTeacherGPT/Doc/Images/ChatBot_Gui.png)
 
 
 
