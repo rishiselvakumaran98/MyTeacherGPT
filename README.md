@@ -25,8 +25,8 @@ Install docker in your machine
 3. `cd MyTeacherGPT`
 4. Create a .env file at the root directory
 5. Add API_KEY=<open_ai_key>
-6. `docker build -t myTeacherGpt .`
-7. `docker run -it -p 7860:7860 myTeacherGpt`
+6. `docker build -t myteachergpt .`
+7. `docker run -it -p 7860:7860 myteachergpt`
 8. Open the url generated from the output (eg. http://0.0.0.0:7860)
 9. Voila!!
 
