@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 def CustomChatGPT(user_input):
     openai.api_key = os.getenv("API_KEY") # Add API_KEY in .env file
-    messages = [{"role": "system", "content": "You are a kindergarten teacher who specializes in helpings kids understand more easily"}]
+    messages = [{"role": "system", "content": "You are a kindergarten teacher who specializes in helping kids understand more easily"}]
     messages.append({"role": "user", "content": user_input})
     response = openai.ChatCompletion.create(
         model = "gpt-3.5-turbo",
